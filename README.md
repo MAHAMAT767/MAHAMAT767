@@ -37,6 +37,18 @@ Prédiction du risque de départ des employés à partir de données RH, avec an
 
 **Stack :** Python, FastAPI, React, TypeScript, XGBoost, MLflow, Docker
 ---
+### 🎬 CineMatch — Système de recommandation de films explicable
+> Comparaison de 5 modèles de ML avec IA explicable — full-stack de A à Z
+
+[![Repo](https://img.shields.io/badge/GitHub-CineMatch-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/CineMatch)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)
+
+Système de recommandation de films sur MovieLens (100 000 notes), comparant 5 approches (popularité, item-item, SVD, ALS, hybride). Résultat central : aucun modèle ne domine sur tous les critères. Chaque recommandation est expliquée, et le système reconnaît quand il ne peut pas justifier un choix.
+
+**Stack :** Python · NumPy · pandas · scikit-learn · FastAPI · React · TypeScript
 
 ### Prédiction du prix de voitures d'occasion
 > Modèle de régression déployé en API + interface web
