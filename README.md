@@ -107,8 +107,7 @@ Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et
 | Diplôme | Institution | Année |
 |---------|-------------|-------|
 | **Master 2 Informatique de Gestion** (en cours) | UCAO, Sénégal | 2025 – présent |
-
-<!-- Ajoute ici tes diplômes précédents (Licence, BTS, Bac...) -->
+| **Licence Professionnelle Informatique de Gestion** | UCAO, Sénégal | 2023 – 2024 |
 
 ---
 
@@ -132,7 +131,6 @@ Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et
 [![GitHub](https://img.shields.io/badge/MAHAMAT767-181717?style=for-the-badge&logo=github)](https://github.com/MAHAMAT767)
 
 <!-- Ajoute ton lien LinkedIn ici si tu en as un -->
-https://www.linkedin.com/in/mahamat-haroun-ibrahim-21a031288/
 
 </div>
 
