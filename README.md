@@ -35,8 +35,7 @@ Je travaille sur le cycle complet des projets data : préparation des données, 
 
 Prédiction du risque de départ des employés à partir de données RH, avec analyse d'interprétabilité (XAI) pour expliquer les facteurs de décision du modèle.
 
-**Stack :** Python · XGBoost · SHAP · pandas · scikit-learn
-
+**Stack :** Python, FastAPI, React, TypeScript, XGBoost, MLflow, Docker
 ---
 
 ### Prédiction du prix de voitures d'occasion
