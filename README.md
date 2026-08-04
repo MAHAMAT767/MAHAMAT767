@@ -1,74 +1,145 @@
+<div align="center">
+
 # Mahamat Haroun Ibrahim
 
-Master 2 Informatique de Gestion — UCAO Dakar
-Passionne par tout ce qui touche a la data : Data Analysis, Data Science, Intelligence Artificielle et Developpement Web. J'aime visualiser des donnees pour en extraire du sens, predire des comportements a partir de modeles statistiques et entrainer des reseaux de neurones pour resoudre des problemes concrets. Mon objectif est de construire des solutions technologiques utiles et impactantes pour l'Afrique.
+### Data Scientist en formation | Master 2 Informatique de Gestion — UCAO
+
+[![GitHub](https://img.shields.io/badge/GitHub-MAHAMAT767-181717?style=flat&logo=github)](https://github.com/MAHAMAT767)
+[![Email](https://img.shields.io/badge/Email-mahamatharoun767%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:mahamatharoun767@gmail.com)
+[![Location](https://img.shields.io/badge/Localisation-Dakar%2C%20Sénégal-00B96B?style=flat&logo=googlemaps)](https://maps.google.com/?q=Dakar,Senegal)
+
+*"Data Science | Machine Learning | Big Data — Master 2 Informatique de Gestion à la recherche d'opportunités"*
+
+</div>
 
 ---
 
-## Competences
+## À propos de moi
 
-**Langages**
-Python · R · Scala · SQL · HTML · CSS
+Étudiant en **Master 2 Informatique de Gestion** à l'UCAO (Sénégal), passionné par la data science et en cours de spécialisation dans ce domaine.
 
-**Machine Learning & Deep Learning**
-TensorFlow · Keras · Scikit-learn · XGBoost · SHAP · MobileNetV2 · Transfer Learning
-
-**Data Analysis & Visualisation**
-Pandas · NumPy · Matplotlib · Seaborn · Power BI
-
-**Developpement Web**
-Django · FastAPI · Flask · Streamlit · Bootstrap 5 · PostgreSQL
-
-**Big Data**
-Apache Spark · Spark SQL
-
-**Outils**
-Git · GitHub · Jupyter Notebook · VS Code
+Je travaille sur le cycle complet des projets data : préparation des données, modélisation (régression, classification), interprétabilité (SHAP), et déploiement (API, dashboards). Je m'intéresse aussi au Big Data (Spark/Scala) et au développement web (Django) pour construire des applications data-driven de bout en bout.
 
 ---
 
-## Projets
+## Projets phares
 
-**Detection de maladies des plantes — Computer Vision**
-Modele MobileNetV2 entraine sur 54 305 images du dataset PlantVillage. Accuracy : 94.17% sur 38 classes de maladies vegetales.
-https://github.com/MAHAMAT767/detection-maladies-plantes
+### Prédiction du turnover des employés
+> Modèle de prédiction RH avec explicabilité — XGBoost + SHAP
 
-**Prediction du turnover des employes — XGBoost + XAI**
-Modele de prediction du depart des employes avec explicabilite via SHAP. HR Analytics applique aux ressources humaines.
-https://github.com/MAHAMAT767/hr-analytics-turnover
+[![Repo](https://img.shields.io/badge/GitHub-hr--analytics--turnover-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/hr-analytics-turnover)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
+![SHAP](https://img.shields.io/badge/SHAP-XAI-blue?style=flat)
 
-**Prediction du prix de voitures — Regression + API**
-Modele de regression lineaire deploye avec FastAPI et visualise avec Streamlit.
-https://github.com/MAHAMAT767/ml-prediction-voitures
+Prédiction du risque de départ des employés à partir de données RH, avec analyse d'interprétabilité (XAI) pour expliquer les facteurs de décision du modèle.
 
-**Plateforme SaaS de gestion universitaire — Django**
-Application web complete de gestion universitaire construite avec Django, PostgreSQL et Bootstrap 5.
-https://github.com/MAHAMAT767/edutchad-gestion-universitaire
+**Stack :** Python · XGBoost · SHAP · pandas · scikit-learn
 
-**Big Data — Apache Spark & Scala**
-Traitement de donnees massives avec Apache Spark, Scala et Spark SQL.
-https://github.com/MAHAMAT767/bigdata-spark-scala
+---
 
-**Data Mining — Dataset Titanic**
-Analyse exploratoire, visualisation et tests statistiques (Khi-2) sur le dataset Titanic.
-https://github.com/MAHAMAT767/data-mining-titanic
+### Prédiction du prix de voitures d'occasion
+> Modèle de régression déployé en API + interface web
 
-**Analyse statistique — Afrique Centrale et Afrique de l'Ouest**
-Analyse comparative des indicateurs demographiques de deux regions africaines en R.
-https://github.com/MAHAMAT767/analyse-statistique-afrique
+[![Repo](https://img.shields.io/badge/GitHub-ml--prediction--voitures-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/ml-prediction-voitures)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
+
+Prédiction du prix de voitures usagées avec un modèle de régression linéaire, exposé via une API FastAPI et une interface utilisateur Streamlit.
+
+**Stack :** Python · scikit-learn · FastAPI · Streamlit
+
+---
+
+### Big Data avec Apache Spark
+> Traitement de données à grande échelle — Spark, Scala, Spark SQL
+
+[![Repo](https://img.shields.io/badge/GitHub-bigdata--spark--scala-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/bigdata-spark-scala)
+![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala)
+![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
+
+Exploration du traitement distribué de données avec Apache Spark, Scala et Spark SQL.
+
+**Stack :** Scala · Apache Spark · Spark SQL
+
+---
+
+### Plateforme de gestion universitaire
+> Application SaaS de gestion académique — Django
+
+[![Repo](https://img.shields.io/badge/GitHub-edutchad--gestion--universitaire-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/edutchad-gestion-universitaire)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
+
+Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et Bootstrap 5.
+
+**Stack :** Python · Django · PostgreSQL · Bootstrap 5
+
+---
+
+## Compétences techniques
+
+### Data & ML
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r)
+
+### Big Data
+![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
+![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala)
+
+### Développement Web & Backend
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
+![HTML](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat&logo=html5)
+
+### Bases de données
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
 
 ---
 
 ## Formation
 
-Master 2 Informatique de Gestion
-Universite Catholique de l'Afrique de l'Ouest (UCAO) — Dakar, Senegal
+| Diplôme | Institution | Année |
+|---------|-------------|-------|
+| **Master 2 Informatique de Gestion** (en cours) | UCAO, Sénégal | 2025 – présent |
 
-Licence Professionnelle Informatique de Gestion
-Universite Catholique de l'Afrique de l'Ouest (UCAO) — Dakar, Senegal
+<!-- Ajoute ici tes diplômes précédents (Licence, BTS, Bac...) -->
 
 ---
 
-## Contact
+## Statistiques GitHub
 
-mottiharoun3@icloud.com
+<div align="center">
+
+![Stats](https://github-readme-stats.vercel.app/api?username=MAHAMAT767&show_icons=true&theme=default&hide_border=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MAHAMAT767&layout=compact&theme=default&hide_border=true)
+
+</div>
+
+---
+
+## Me contacter
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/mahamatharoun767@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahamatharoun767@gmail.com)
+[![GitHub](https://img.shields.io/badge/MAHAMAT767-181717?style=for-the-badge&logo=github)](https://github.com/MAHAMAT767)
+
+<!-- Ajoute ton lien LinkedIn ici si tu en as un -->
+https://www.linkedin.com/in/mahamat-haroun-ibrahim-21a031288/
+
+</div>
+
+---
+
+<div align="center">
+
+*"Passionné par la data, en route vers le métier de data scientist"*
+
+</div>
