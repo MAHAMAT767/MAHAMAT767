@@ -2,14 +2,14 @@
 
 # Mahamat Haroun Ibrahim
 
-### Data Scientist en formation | Master 2 Informatique de Gestion — UCAO
+### Data Analyst | Master 2 Informatique de Gestion — UCAO
 
 [![GitHub](https://img.shields.io/badge/GitHub-MAHAMAT767-181717?style=flat&logo=github)](https://github.com/MAHAMAT767)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mahamat--haroun--ibrahim-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/mahamat-haroun-ibrahim-21a031288/)
 [![Email](https://img.shields.io/badge/Email-mahamatharoun767%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:mahamatharoun767@gmail.com)
 [![Location](https://img.shields.io/badge/Localisation-Dakar%2C%20Sénégal-00B96B?style=flat&logo=googlemaps)](https://maps.google.com/?q=Dakar,Senegal)
 
-*"Data Science | Machine Learning | Big Data — Master 2 Informatique de Gestion à la recherche d'opportunités"*
+*"Python, ML, Big Data, Dev Web, FastAPI, Django, Flask — en spécialisation vers Data Scientist"*
 
 </div>
 
