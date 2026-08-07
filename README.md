@@ -19,11 +19,30 @@
 
 Étudiant en **Master 2 Informatique de Gestion** à l'UCAO (Sénégal), passionné par la data science et en cours de spécialisation dans ce domaine.
 
-Je travaille sur le cycle complet des projets data : préparation des données, modélisation (régression, classification), interprétabilité (SHAP), et déploiement (API, dashboards). Je m'intéresse aussi au Big Data (Spark/Scala) et au développement web (Django) pour construire des applications data-driven de bout en bout.
+Je travaille sur le cycle complet des projets data : préparation des données, modélisation (régression, classification), interprétabilité (SHAP, LIME), et déploiement (API, dashboards, CI/CD, monitoring en production). Je m'intéresse aussi au Big Data (Spark/Scala) et au développement web (Django, React) pour construire des applications data-driven de bout en bout.
 
 ---
 
 ## Projets phares
+
+### 💳 Scoring Crédit — Système MLOps de bout en bout
+> Pipeline complet du modèle au déploiement — coût métier optimisé, interprétable, monitoré en production
+
+[![Repo](https://img.shields.io/badge/GitHub-scoring--credit--mlops-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/scoring-credit-mlops)
+[![Démo](https://img.shields.io/badge/Démo-scoring--credit--mlops.vercel.app-000000?style=flat&logo=vercel)](https://scoring-credit-mlops.vercel.app)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow)
+
+Système de scoring crédit pour une banque, optimisé sur le **coût métier réel** plutôt que sur la précision brute (un faux négatif pèse 5× un faux positif). Random Forest avec seuil de décision optimisé sur le dataset UCI Credit Card Clients (30 000 clients). Interprétabilité SHAP et LIME pour justifier chaque décision, API FastAPI conteneurisée avec CI/CD (GitHub Actions), dashboard React avec assistant IA, et monitoring de la dérive des données (Evidently) en production.
+
+**Résultats clés :** −46 % de coût de risque · 72 % de défauts détectés · ROC-AUC 0,777
+
+**Stack :** Python · scikit-learn · XGBoost · SHAP · LIME · MLflow · Evidently · FastAPI · Docker · React · TypeScript · Vercel · Render
+
+---
 
 ### Prédiction du turnover des employés
 > Modèle de prédiction RH avec explicabilité — XGBoost + SHAP
@@ -99,6 +118,13 @@ Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r)
 
+### MLOps & Interprétabilité
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-XAI-blue?style=flat)
+![Evidently](https://img.shields.io/badge/Evidently-FF4B4B?style=flat)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+
 ### Big Data
 ![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala)
@@ -107,6 +133,8 @@ Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)
 ![HTML](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat&logo=html5)
 
 ### Bases de données
