@@ -1,54 +1,145 @@
-# Analyse des Données du Titanic — Data Mining
+<div align="center">
 
-Master 2 Informatique de Gestion | UCAO Dakar
-Auteur : Mahamat Haroun Ibrahim
+# Mahamat Haroun Ibrahim
 
+### Data Analyst | Master 2 Informatique de Gestion — UCAO
+
+[![GitHub](https://img.shields.io/badge/GitHub-MAHAMAT767-181717?style=flat&logo=github)](https://github.com/MAHAMAT767)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mahamat--haroun--ibrahim-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/mahamat-haroun-ibrahim-21a031288/)
+[![Email](https://img.shields.io/badge/Email-mahamatharoun767%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:mahamatharoun767@gmail.com)
+[![Location](https://img.shields.io/badge/Localisation-Dakar%2C%20Sénégal-00B96B?style=flat&logo=googlemaps)](https://maps.google.com/?q=Dakar,Senegal)
+
+*"Python, ML, Big Data, Dev Web, FastAPI, Django, Flask — en spécialisation vers Data Scientist"*
+
+</div>
+
+---
+
+## À propos de moi
+
+Étudiant en **Master 2 Informatique de Gestion** à l'UCAO (Sénégal), passionné par la data science et en cours de spécialisation dans ce domaine.
+
+Je travaille sur le cycle complet des projets data : préparation des données, modélisation (régression, classification), interprétabilité (SHAP), et déploiement (API, dashboards). Je m'intéresse aussi au Big Data (Spark/Scala) et au développement web (Django) pour construire des applications data-driven de bout en bout.
+
+---
+
+## Projets phares
+
+### Prédiction du turnover des employés
+> Modèle de prédiction RH avec explicabilité — XGBoost + SHAP
+
+[![Repo](https://img.shields.io/badge/GitHub-hr--analytics--turnover-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/hr-analytics-turnover)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
+![SHAP](https://img.shields.io/badge/SHAP-XAI-blue?style=flat)
+
+Prédiction du risque de départ des employés à partir de données RH, avec analyse d'interprétabilité (XAI) pour expliquer les facteurs de décision du modèle.
+
+**Stack :** Python · XGBoost · SHAP · pandas · scikit-learn
+
+---
+
+### Prédiction du prix de voitures d'occasion
+> Modèle de régression déployé en API + interface web
+
+[![Repo](https://img.shields.io/badge/GitHub-ml--prediction--voitures-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/ml-prediction-voitures)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
+
+Prédiction du prix de voitures usagées avec un modèle de régression linéaire, exposé via une API FastAPI et une interface utilisateur Streamlit.
+
+**Stack :** Python · scikit-learn · FastAPI · Streamlit
+
+---
+
+### Big Data avec Apache Spark
+> Traitement de données à grande échelle — Spark, Scala, Spark SQL
+
+[![Repo](https://img.shields.io/badge/GitHub-bigdata--spark--scala-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/bigdata-spark-scala)
+![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala)
+![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
+
+Exploration du traitement distribué de données avec Apache Spark, Scala et Spark SQL.
+
+**Stack :** Scala · Apache Spark · Spark SQL
+
+---
+
+### Plateforme de gestion universitaire
+> Application SaaS de gestion académique — Django
+
+[![Repo](https://img.shields.io/badge/GitHub-edutchad--gestion--universitaire-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/edutchad-gestion-universitaire)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
+
+Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et Bootstrap 5.
+
+**Stack :** Python · Django · PostgreSQL · Bootstrap 5
+
+---
+
+## Compétences techniques
+
+### Data & ML
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r)
 
-## Objectifs
+### Big Data
+![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
+![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala)
 
-- Charger et explorer les données du Titanic
-- Nettoyer et préparer les données
-- Visualiser les relations entre les variables
-- Appliquer des tests statistiques pour valider des hypothèses
+### Développement Web & Backend
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
+![HTML](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat&logo=html5)
 
-## Dataset
+### Bases de données
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
 
-891 passagers, 13 colonnes d'origine (identifiant, classe, nom, genre, âge, liens familiaux, billet, tarif, cabine, port d'embarquement, survie).
+---
 
-## Méthodologie
+## Formation
 
-**1. Exploration** — structure des données, statistiques descriptives (âge moyen 29 ans, taux de survie global 38%).
+| Diplôme | Institution | Année |
+|---------|-------------|-------|
+| **Master 2 Informatique de Gestion** (en cours) | UCAO, Sénégal | 2025 – présent |
+| **Licence Professionnelle Informatique de Gestion** | UCAO, Sénégal | 2023 – 2024 |
 
-**2. Nettoyage**
-- Renommage de `Sex` en `Genre`
-- Suppression des colonnes non pertinentes pour l'analyse (`SibSp`, `Parch`, `Ticket`, `Fare`)
-- Valeurs manquantes : `Age` (19.9%) imputé par la médiane, `Embarked` (0.2%) imputé par le mode, `Cabin` (77.1% manquant) supprimée
+---
 
-**3. Visualisation** — répartition des survivants, taux de survie par genre, par âge, par classe sociale.
+## Statistiques GitHub
 
-**4. Test statistique** — test du Khi-2 sur l'association Genre × Survie.
+<div align="center">
 
-## Résultats clés
+![Stats](https://github-readme-stats.vercel.app/api?username=MAHAMAT767&show_icons=true&theme=default&hide_border=true)
 
-| Variable | Impact sur la survie | Observation |
-|---|---|---|
-| Genre | Significatif (Khi-2 = 260.72, p < 0.001) | Les femmes ont survécu en plus grande proportion (72% vs 19% pour les hommes) |
-| Classe | Significatif | Les passagers de 1ère classe ont un taux de survie plus élevé |
-| Âge | Modéré | Les enfants ont été priorisés lors de l'évacuation |
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MAHAMAT767&layout=compact&theme=default&hide_border=true)
 
-**Conclusion** : la survie n'était pas aléatoire. Le test du Khi-2 confirme statistiquement que le genre influence significativement les chances de survie (p-value < 0.05, H0 rejetée).
+</div>
 
-## Stack technique
+---
 
-Python · pandas · numpy · matplotlib · seaborn · scipy (test du Khi-2)
+## Me contacter
 
-## Utilisation
+<div align="center">
 
-```bash
-pip install pandas numpy matplotlib seaborn scipy
-jupyter notebook Analyse_Titanic.ipynb
-```
+[![Email](https://img.shields.io/badge/mahamatharoun767@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahamatharoun767@gmail.com)
+[![GitHub](https://img.shields.io/badge/MAHAMAT767-181717?style=for-the-badge&logo=github)](https://github.com/MAHAMAT767)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mahamat--haroun--ibrahim-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahamat-haroun-ibrahim-21a031288/)
+[![Facebook](https://img.shields.io/badge/Facebook-mahamatharounosibrahim-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/mahamatharounosibrahim.ibrahim/)
+
+</div>
+
+---
+
+<div align="center">
+
+*"Passionné par la data, en route vers le métier de data scientist"*
+
+</div>
