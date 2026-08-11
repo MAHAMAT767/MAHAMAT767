@@ -1,183 +1,54 @@
-<div align="center">
+# Analyse des Données du Titanic — Data Mining
 
-# Mahamat Haroun Ibrahim
+Master 2 Informatique de Gestion | UCAO Dakar
+Auteur : Mahamat Haroun Ibrahim
 
-### Data Analyst | Master 2 Informatique de Gestion — UCAO
-
-[![GitHub](https://img.shields.io/badge/GitHub-MAHAMAT767-181717?style=flat&logo=github)](https://github.com/MAHAMAT767)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mahamat--haroun--ibrahim-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/mahamat-haroun-ibrahim-21a031288/)
-[![Email](https://img.shields.io/badge/Email-mahamatharoun767%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:mahamatharoun767@gmail.com)
-[![Location](https://img.shields.io/badge/Localisation-Dakar%2C%20Sénégal-00B96B?style=flat&logo=googlemaps)](https://maps.google.com/?q=Dakar,Senegal)
-
-*"Python, ML, Big Data, Dev Web, FastAPI, Django, Flask — en spécialisation vers Data Scientist"*
-
-</div>
-
----
-
-## À propos de moi
-
-Étudiant en **Master 2 Informatique de Gestion** à l'UCAO (Sénégal), passionné par la data science et en cours de spécialisation dans ce domaine.
-
-Je travaille sur le cycle complet des projets data : préparation des données, modélisation (régression, classification), interprétabilité (SHAP, LIME), et déploiement (API, dashboards, CI/CD, monitoring en production). Je m'intéresse aussi au Big Data (Spark/Scala) et au développement web (Django, React) pour construire des applications data-driven de bout en bout.
-
----
-
-## Projets phares
-
-### 💳 Scoring Crédit — Système MLOps de bout en bout
-> Pipeline complet du modèle au déploiement — coût métier optimisé, interprétable, monitoré en production
-
-[![Repo](https://img.shields.io/badge/GitHub-scoring--credit--mlops-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/scoring-credit-mlops)
-[![Démo](https://img.shields.io/badge/Démo-scoring--credit--mlops.vercel.app-000000?style=flat&logo=vercel)](https://scoring-credit-mlops.vercel.app)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow)
-
-Système de scoring crédit pour une banque, optimisé sur le **coût métier réel** plutôt que sur la précision brute (un faux négatif pèse 5× un faux positif). Random Forest avec seuil de décision optimisé sur le dataset UCI Credit Card Clients (30 000 clients). Interprétabilité SHAP et LIME pour justifier chaque décision, API FastAPI conteneurisée avec CI/CD (GitHub Actions), dashboard React avec assistant IA, et monitoring de la dérive des données (Evidently) en production.
-
-**Résultats clés :** −46 % de coût de risque · 72 % de défauts détectés · ROC-AUC 0,777
-
-**Stack :** Python · scikit-learn · XGBoost · SHAP · LIME · MLflow · Evidently · FastAPI · Docker · React · TypeScript · Vercel · Render
-
----
-
-### Prédiction du turnover des employés
-> Modèle de prédiction RH avec explicabilité — XGBoost + SHAP
-
-[![Repo](https://img.shields.io/badge/GitHub-hr--analytics--turnover-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/hr-analytics-turnover)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
-![SHAP](https://img.shields.io/badge/SHAP-XAI-blue?style=flat)
-
-Prédiction du risque de départ des employés à partir de données RH, avec analyse d'interprétabilité (XAI) pour expliquer les facteurs de décision du modèle.
-
-**Stack :** Python, FastAPI, React, TypeScript, XGBoost, MLflow, Docker
----
-### 🎬 CineMatch — Système de recommandation de films explicable
-> Comparaison de 5 modèles de ML avec IA explicable — full-stack de A à Z
-
-[![Repo](https://img.shields.io/badge/GitHub-CineMatch-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/CineMatch)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)
-
-Système de recommandation de films sur MovieLens (100 000 notes), comparant 5 approches (popularité, item-item, SVD, ALS, hybride). Résultat central : aucun modèle ne domine sur tous les critères. Chaque recommandation est expliquée, et le système reconnaît quand il ne peut pas justifier un choix.
-
-**Stack :** Python · NumPy · pandas · scikit-learn · FastAPI · React · TypeScript
-
-### Prédiction du prix de voitures d'occasion
-> Modèle de régression déployé en API + interface web
-
-[![Repo](https://img.shields.io/badge/GitHub-ml--prediction--voitures-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/ml-prediction-voitures)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
-
-Prédiction du prix de voitures usagées avec un modèle de régression linéaire, exposé via une API FastAPI et une interface utilisateur Streamlit.
-
-**Stack :** Python · scikit-learn · FastAPI · Streamlit
-
----
-
-### Big Data avec Apache Spark
-> Traitement de données à grande échelle — Spark, Scala, Spark SQL
-
-[![Repo](https://img.shields.io/badge/GitHub-bigdata--spark--scala-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/bigdata-spark-scala)
-![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala)
-![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
-
-Exploration du traitement distribué de données avec Apache Spark, Scala et Spark SQL.
-
-**Stack :** Scala · Apache Spark · Spark SQL
-
----
-
-### Plateforme de gestion universitaire
-> Application SaaS de gestion académique — Django
-
-[![Repo](https://img.shields.io/badge/GitHub-edutchad--gestion--universitaire-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/edutchad-gestion-universitaire)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
-
-Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et Bootstrap 5.
-
-**Stack :** Python · Django · PostgreSQL · Bootstrap 5
-
----
-
-## Compétences techniques
-
-### Data & ML
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy)
 
-### MLOps & Interprétabilité
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
-![SHAP](https://img.shields.io/badge/SHAP-XAI-blue?style=flat)
-![Evidently](https://img.shields.io/badge/Evidently-FF4B4B?style=flat)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+## Objectifs
 
-### Big Data
-![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
-![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala)
+- Charger et explorer les données du Titanic
+- Nettoyer et préparer les données
+- Visualiser les relations entre les variables
+- Appliquer des tests statistiques pour valider des hypothèses
 
-### Développement Web & Backend
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)
-![HTML](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat&logo=html5)
+## Dataset
 
-### Bases de données
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
+891 passagers, 13 colonnes d'origine (identifiant, classe, nom, genre, âge, liens familiaux, billet, tarif, cabine, port d'embarquement, survie).
 
----
+## Méthodologie
 
-## Formation
+**1. Exploration** — structure des données, statistiques descriptives (âge moyen 29 ans, taux de survie global 38%).
 
-| Diplôme | Institution | Année |
-|---------|-------------|-------|
-| **Master 2 Informatique de Gestion** (en cours) | UCAO, Sénégal | 2025 – présent |
-| **Licence Professionnelle Informatique de Gestion** | UCAO, Sénégal | 2023 – 2024 |
+**2. Nettoyage**
+- Renommage de `Sex` en `Genre`
+- Suppression des colonnes non pertinentes pour l'analyse (`SibSp`, `Parch`, `Ticket`, `Fare`)
+- Valeurs manquantes : `Age` (19.9%) imputé par la médiane, `Embarked` (0.2%) imputé par le mode, `Cabin` (77.1% manquant) supprimée
 
----
+**3. Visualisation** — répartition des survivants, taux de survie par genre, par âge, par classe sociale.
 
-## Statistiques GitHub
+**4. Test statistique** — test du Khi-2 sur l'association Genre × Survie.
 
-<div align="center">
+## Résultats clés
 
-![Stats](https://github-readme-stats.vercel.app/api?username=MAHAMAT767&show_icons=true&theme=default&hide_border=true)
+| Variable | Impact sur la survie | Observation |
+|---|---|---|
+| Genre | Significatif (Khi-2 = 260.72, p < 0.001) | Les femmes ont survécu en plus grande proportion (72% vs 19% pour les hommes) |
+| Classe | Significatif | Les passagers de 1ère classe ont un taux de survie plus élevé |
+| Âge | Modéré | Les enfants ont été priorisés lors de l'évacuation |
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MAHAMAT767&layout=compact&theme=default&hide_border=true)
+**Conclusion** : la survie n'était pas aléatoire. Le test du Khi-2 confirme statistiquement que le genre influence significativement les chances de survie (p-value < 0.05, H0 rejetée).
 
-</div>
+## Stack technique
 
----
+Python · pandas · numpy · matplotlib · seaborn · scipy (test du Khi-2)
 
-## Me contacter
+## Utilisation
 
-<div align="center">
-
-[![Email](https://img.shields.io/badge/mahamatharoun767@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mahamatharoun767@gmail.com)
-[![GitHub](https://img.shields.io/badge/MAHAMAT767-181717?style=for-the-badge&logo=github)](https://github.com/MAHAMAT767)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mahamat--haroun--ibrahim-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahamat-haroun-ibrahim-21a031288/)
-[![Facebook](https://img.shields.io/badge/Facebook-mahamatharounosibrahim-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/mahamatharounosibrahim.ibrahim/)
-
-</div>
-
----
-
-<div align="center">
-
-*"Passionné par la data, en route vers le métier de data scientist"*
-
-</div>
+```bash
+pip install pandas numpy matplotlib seaborn scipy
+jupyter notebook Analyse_Titanic.ipynb
+```
