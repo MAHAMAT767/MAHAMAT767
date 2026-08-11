@@ -98,6 +98,43 @@ Exploration du traitement distribué de données avec Apache Spark, Scala et Spa
 
 **Stack :** Scala · Apache Spark · Spark SQL
 
+---
+
+### Plateforme de gestion universitaire
+> Application SaaS de gestion académique — Django
+
+[![Repo](https://img.shields.io/badge/GitHub-edutchad--gestion--universitaire-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/edutchad-gestion-universitaire)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
+
+Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et Bootstrap 5.
+
+**Stack :** Python · Django · PostgreSQL · Bootstrap 5
+
+---
+
+### Data Mining — Titanic
+> EDA, nettoyage et test statistique du Khi-2
+
+[![Repo](https://img.shields.io/badge/GitHub-data--mining--titanic-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/data-mining-titanic)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas)
+
+Analyse exploratoire du dataset Titanic (891 passagers) : nettoyage, visualisations, et test du Khi-2 confirmant l'impact significatif du genre sur la survie (p < 0,001).
+
+**Stack :** Python · pandas · seaborn · scipy
+
+---
+
+### Analyse statistique comparative — Afrique
+> Indicateurs démographiques, Afrique Centrale vs Afrique de l'Ouest
+
+[![Repo](https://img.shields.io/badge/GitHub-analyse--statistique--afrique-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/analyse-statistique-afrique)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r)
+
+Analyse statistique comparative de 10 pays d'Afrique Centrale et de l'Ouest (population, superficie, densité).
+
+**Stack :** R · tidyverse · ggplot2
 
 ---
 
