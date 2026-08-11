@@ -98,18 +98,6 @@ Exploration du traitement distribué de données avec Apache Spark, Scala et Spa
 
 **Stack :** Scala · Apache Spark · Spark SQL
 
----
-
-### Plateforme de gestion universitaire
-> Application SaaS de gestion académique — Django
-
-[![Repo](https://img.shields.io/badge/GitHub-edutchad--gestion--universitaire-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/edutchad-gestion-universitaire)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
-
-Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et Bootstrap 5.
-
-**Stack :** Python · Django · PostgreSQL · Bootstrap 5
 
 ---
 
