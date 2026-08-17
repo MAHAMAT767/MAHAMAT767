@@ -26,10 +26,12 @@ Je travaille sur le cycle complet des projets data : préparation des données, 
 ## Projets phares
 
 ### 💳 Scoring Crédit — Système MLOps de bout en bout
+
 > Pipeline complet du modèle au déploiement — coût métier optimisé, interprétable, monitoré en production
 
 [![Repo](https://img.shields.io/badge/GitHub-scoring--credit--mlops-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/scoring-credit-mlops)
 [![Démo](https://img.shields.io/badge/Démo-scoring--credit--mlops.vercel.app-000000?style=flat&logo=vercel)](https://scoring-credit-mlops.vercel.app)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
@@ -44,10 +46,35 @@ Système de scoring crédit pour une banque, optimisé sur le **coût métier r�
 
 ---
 
+### 🎗️ BreastAI — Aide au dépistage du cancer du sein par IA explicable
+
+> Classification EfficientNet-B0 + Grad-CAM, garde-fous anti-corruption de modèle, dédié à la mémoire de Mouna Abakar
+
+[![Repo](https://img.shields.io/badge/GitHub-BreastAi-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/BreastAi)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)
+
+Application d'aide au dépistage du cancer du sein par analyse de mammographies (jeux de données mini-MIAS et Mini-DDSM), avec classification EfficientNet-B0 et visualisation Grad-CAM des zones ayant influencé la prédiction. Chaque résultat affiche explicitement son statut de validation clinique (placeholder / entraîné non validé / validé) pour ne jamais confondre une sortie de modèle avec un diagnostic médical.
+
+Point fait pendant le projet : un bug silencieux permettait qu'une évaluation soit réalisée sur un réseau jamais réellement entraîné, sans que les métriques ne le trahissent. Ça m'a conduit à construire des garde-fous automatiques qui refusent de charger un checkpoint dont les poids sont identiques à un modèle non entraîné, plutôt que de faire confiance aveuglément à un score.
+
+Prototype de recherche, pas un dispositif médical certifié — chaque résultat reste une aide expérimentale, la lecture d'un professionnel de santé fait foi cliniquement.
+
+**Stack :** Python · PyTorch · TorchVision · Grad-CAM · FastAPI · SQLAlchemy · Alembic · PostgreSQL · React · TypeScript · GitHub Actions
+
+---
+
 ### Prédiction du turnover des employés
+
 > Modèle de prédiction RH avec explicabilité — XGBoost + SHAP
 
 [![Repo](https://img.shields.io/badge/GitHub-hr--analytics--turnover-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/hr-analytics-turnover)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
 ![SHAP](https://img.shields.io/badge/SHAP-XAI-blue?style=flat)
@@ -59,9 +86,11 @@ Prédiction du risque de départ des employés à partir de données RH, avec an
 ---
 
 ### 🎬 CineMatch — Système de recommandation de films explicable
+
 > Comparaison de 5 modèles de ML avec IA explicable — full-stack de A à Z
 
 [![Repo](https://img.shields.io/badge/GitHub-CineMatch-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/CineMatch)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react)
@@ -74,9 +103,11 @@ Système de recommandation de films sur MovieLens (100 000 notes), comparant 5 a
 ---
 
 ### Prédiction du prix de voitures d'occasion
+
 > Modèle de régression déployé en API + interface web
 
 [![Repo](https://img.shields.io/badge/GitHub-ml--prediction--voitures-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/ml-prediction-voitures)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
@@ -88,9 +119,11 @@ Prédiction du prix de voitures usagées avec un modèle de régression linéair
 ---
 
 ### Big Data avec Apache Spark
+
 > Traitement de données à grande échelle — Spark, Scala, Spark SQL
 
 [![Repo](https://img.shields.io/badge/GitHub-bigdata--spark--scala-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/bigdata-spark-scala)
+
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala)
 ![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
 
@@ -101,9 +134,11 @@ Exploration du traitement distribué de données avec Apache Spark, Scala et Spa
 ---
 
 ### Plateforme de gestion universitaire
+
 > Application SaaS de gestion académique — Django
 
 [![Repo](https://img.shields.io/badge/GitHub-edutchad--gestion--universitaire-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/edutchad-gestion-universitaire)
+
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
 
@@ -114,9 +149,11 @@ Plateforme SaaS de gestion universitaire développée avec Django, PostgreSQL et
 ---
 
 ### Data Mining — Titanic
+
 > EDA, nettoyage et test statistique du Khi-2
 
 [![Repo](https://img.shields.io/badge/GitHub-data--mining--titanic-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/data-mining-titanic)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas)
 
@@ -127,9 +164,11 @@ Analyse exploratoire du dataset Titanic (891 passagers) : nettoyage, visualisati
 ---
 
 ### Analyse statistique comparative — Afrique
+
 > Indicateurs démographiques, Afrique Centrale vs Afrique de l'Ouest
 
 [![Repo](https://img.shields.io/badge/GitHub-analyse--statistique--afrique-181717?style=flat&logo=github)](https://github.com/MAHAMAT767/analyse-statistique-afrique)
+
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r)
 
 Analyse statistique comparative de 10 pays d'Afrique Centrale et de l'Ouest (population, superficie, densité).
@@ -141,13 +180,16 @@ Analyse statistique comparative de 10 pays d'Afrique Centrale et de l'Ouest (pop
 ## Compétences techniques
 
 ### Data & ML
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r)
 
 ### MLOps & Interprétabilité
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP-XAI-blue?style=flat)
@@ -155,10 +197,12 @@ Analyse statistique comparative de 10 pays d'Afrique Centrale et de l'Ouest (pop
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 ### Big Data
+
 ![Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala)
 
 ### Développement Web & Backend
+
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
@@ -167,6 +211,7 @@ Analyse statistique comparative de 10 pays d'Afrique Centrale et de l'Ouest (pop
 ![HTML](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat&logo=html5)
 
 ### Bases de données
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
 
 ---
@@ -185,7 +230,6 @@ Analyse statistique comparative de 10 pays d'Afrique Centrale et de l'Ouest (pop
 <div align="center">
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=MAHAMAT767&show_icons=true&theme=default&hide_border=true)
-
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MAHAMAT767&layout=compact&theme=default&hide_border=true)
 
 </div>
