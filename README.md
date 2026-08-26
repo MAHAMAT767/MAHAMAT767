@@ -2,7 +2,7 @@
 
 # Mahamat Haroun Ibrahim
 
-### Data Analyst | Master 2 Informatique de Gestion — UCAO
+### Data Scientist | Master 2 Informatique de Gestion — UCAO
 
 [![GitHub](https://img.shields.io/badge/GitHub-MAHAMAT767-181717?style=flat&logo=github)](https://github.com/MAHAMAT767)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mahamat--haroun--ibrahim-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/mahamat-haroun-ibrahim-21a031288/)
